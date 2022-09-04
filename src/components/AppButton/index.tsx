@@ -1,11 +1,11 @@
 import React from "react";
 import './style.scss';
-   
-class AppButton extends React.Component{ 
+
+class AppButton extends React.Component<{text:string}>{ 
     render(){
         return (        
             <button className="botao"
-            >CLICK</button>
+            >{this.props.text}</button>
         )
         
     }

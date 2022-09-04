@@ -1,4 +1,5 @@
 import AppForm from '../components/AppForm';
+import Chorno from '../components/Chrono';
 import List from '../components/List';
 import style from './App.module.scss';
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className={style.AppStyle}>
       <AppForm />
       <List />
+      <Chorno />
     </div>
   );
 }
